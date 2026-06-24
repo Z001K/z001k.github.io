@@ -1,2 +1,2 @@
 # z001k.github.io
-My portfolio containing my CV and projects, built from scrat
+My portfolio containing my CV and projects, built from scratch.
