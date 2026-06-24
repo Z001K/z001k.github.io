@@ -1,0 +1,151 @@
+body {
+  font-family: 'Roboto Mono', Arial, sans-serif;
+  line-height: 1.2;
+  color: #2B1B2D;
+  background-color: #B6C7D3;
+  margin: 0;
+}
+
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #7E4E83;
+    border-right: 2px solid;
+    overflow-y: auto; 
+    -webkit-overflow-scrolling: touch; 
+  /*  
+  backdrop-filter: blur(10px); 
+    z-index: 10;
+    -webkit-backdrop-filter: blur(10px); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+  */
+}
+.nav-link:hover {
+  transform: scale(1.01);
+  background-color: #A188B9;
+
+}
+
+#navbar header {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.nav-link {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid;
+}
+
+#main-doc {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    #navbar {
+        position: relative;
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid;
+    }
+    #main-doc {
+        margin-left: 0;
+    }
+}
+.main-section {
+  margin-bottom: 2px;
+  padding: 10px;
+}
+.main-section header {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#small-text {
+  font-size: 10px;
+  font-style: italic;
+  background-color: #A4B3BE;
+  border-radius: 9px;
+  box-shadow: 0 0 9px 5px #A4B3BE;
+}
+
+#Content_1 {
+  border-bottom: 1.8px solid;
+  padding-bottom: 20px;
+  line-height: 1.1;
+}
+
+
+#Content_2 {
+  border-bottom: 1.8px solid;
+}
+#Content_3 {
+  border-bottom: 1.8px solid;
+}
+#Content_4 {
+  border-bottom: 1.8px solid;
+}
+#Content_5 {
+  border-bottom: 1.8px solid;
+}
+#Content_6 {
+  border-bottom: 1.8px solid;
+}
+#Content_7 {
+  border-bottom: 1.8px solid;
+}
+#Content_8 {
+  border-bottom: 1.8px solid;
+}
+#Content_9 {
+  border-bottom: 1.8px solid;
+}
+#Content_10 {
+  border-bottom: 1.8px solid;
+}
+/* 1. Unvisited link */
+#content_1 a:link {
+  color: #2A1E88 !important;
+}
+
+/* 2. Visited link */
+#content_1 a:visited {
+  color: #601e88 !important;
+}
+
+/* 3. Mouse over (hover) link */
+#content_1 a:hover {
+  color: #290D3B !important;
+}
+
+/* 4. Active (selected/clicked) link */
+#content_1 a:active {
+  color: #290D3B !important;
+}
+/* The outer container holds the columns side-by-side */
+.column-container {
+  display: flex; /* Aligns columns horizontally */
+  gap: 20px;     /* Adds uniform space between columns */
+  width: 100%;   /* Spans the full width of the screen */
+}
+
+/* Individual column configuration */
+.column {
+  flex: 1;       /* Ensures all 3 columns share space equally */
+}
+
+/* Responsive design for smaller screens (Mobile) */
+@media (max-width: 768px) {
+  .column-container {
+    flex-direction: column; /* Stacks columns vertically on mobile */
+  }
+}
